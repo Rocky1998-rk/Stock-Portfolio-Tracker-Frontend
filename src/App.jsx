@@ -12,9 +12,9 @@ export default function App() {
         <Navbar />
         <div className="container mx-auto p-4 ">
           <Routes>
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/login" element={<Login />} />
             <Route path="/" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function Navbar(){
           ) : (
             <>
               <Link to="/login" className="px-3 text-white">Login</Link>
-              <Link to="/register" className="px-3 text-white">Register</Link>
+              <Link to="/" className="px-3 text-white">Register</Link>
             </>
           )}
         </div>
